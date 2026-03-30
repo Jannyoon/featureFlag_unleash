@@ -31,6 +31,6 @@
 	
 
 	<section class="feature-hero" aria-label="feature flag practice">
-		<h1>feature flag!</h1>
+		<h1>feature flag</h1>
 	</section>
 </div>
