@@ -647,6 +647,13 @@
     "@typescript-eslint/types" "8.57.2"
     eslint-visitor-keys "^5.0.0"
 
+"@unleash/proxy-client-svelte@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@unleash/proxy-client-svelte/-/proxy-client-svelte-0.4.3.tgz#e427d4b95ae20144a184c65413b1d44fa23fa19a"
+  integrity sha512-Y6mqip3NSs+FmdpCHZUlATLK3i+/rXrMUt/I5wD0pCfSU3QbIcSP6meu5nW5KzUIvg7VDQrS7lgdN7/Iohh54w==
+  dependencies:
+    unleash-proxy-client "^3.7.2"
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -1389,6 +1396,11 @@ svelte@^5.54.0:
     magic-string "^0.30.11"
     zimmerframe "^1.1.2"
 
+tiny-emitter@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
+
 tinyglobby@^0.2.15:
   version "0.2.15"
   resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.15.tgz#e228dd1e638cea993d2fdb4fcd2d4602a79951c2"
@@ -1434,6 +1446,14 @@ undici-types@~6.21.0:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
   integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
+unleash-proxy-client@^3.7.2:
+  version "3.7.8"
+  resolved "https://registry.yarnpkg.com/unleash-proxy-client/-/unleash-proxy-client-3.7.8.tgz#ab09f56ea1c51c68a97ed013de5abff99bea77d9"
+  integrity sha512-VX0jDcOporeVb1nh4+HGpEZIwcwHl/HP/7cyZxQq3umffN0hx44Tw1u4nmdopmm9s7Hb2BES0pFCIntr/lh3vQ==
+  dependencies:
+    tiny-emitter "^2.1.0"
+    uuid "^9.0.1"
+
 uri-js@^4.2.2:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.4.1.tgz#9b1a52595225859e55f669d928f88c6c57f2a77e"
@@ -1445,6 +1465,11 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 vite@^7.3.1:
   version "7.3.1"
