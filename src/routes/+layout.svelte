@@ -28,6 +28,7 @@
 		refreshInterval: 5,
 		metricsInterval: 5,
 		appName: '111', //나만 알아볼 수 있는 고유 네임. unleash 플랫폼과 무관함
+		context: { properties: { userLocale: '광주광역시'}}
 		// storageProvider
 	};
 
